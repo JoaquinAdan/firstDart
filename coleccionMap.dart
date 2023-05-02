@@ -24,6 +24,7 @@ void main() {
   } else {
     print(persona["pais"]);
   }*/
+  persona.addEntries([MapEntry('Ciudad', 'Campana')]);
 
   print(persona["pais"] != null ? persona['pais'] : "la persona no tiene pais");
 }
